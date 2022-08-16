@@ -1,0 +1,111 @@
+body, h2, ul{
+  margin: 0;
+  
+}
+
+ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+
+/*------------------ FORM ----------------------*/
+.new-form{
+  padding: 120px;
+  background-image: linear-gradient(19deg, #fff, grey 100%);
+  color: rgb(74, 73, 73);
+  font-weight: 600; 
+  width: 250;
+  border-radius: 10px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-btn{
+  background-color: rgb(60, 60, 139);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.sub-btn:hover{
+  background-color: #fff;
+  color: red;
+  border: none;
+}
+
+/*-----------------CARD------------------------*/
+
+.card{
+  padding: 20px;
+  background: darkgray;
+  color: rgb(74, 73, 73);
+  font-weight: 600;
+  width: 300px;
+  border: none;
+  
+}
+
+.trash-btn{
+ 
+  background-color: rgb(60, 60, 139);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.trash-btn:hover{
+  background-color: #fff;
+  color: red;
+  border: 1px;
+}
+
+.update-btn{
+  background-color: rgb(60, 60, 139);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  cursor: pointer;
+}
+
+.update-btn:hover{
+  background-color: #fff;
+  color: red;
+  border: 1px;
+}
+
+.create-movie-btn{
+  background-color: rgb(60, 60, 139);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.create-movie-btn:hover{
+  background-color: rgb(208, 207, 207);
+  color: rgb(74, 73, 73);
+  font-weight: 600;
+}
+
+
